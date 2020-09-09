@@ -34,5 +34,8 @@
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel css-watch js-watch"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "hamburgers": "^1.1.3"
+  }
 }
