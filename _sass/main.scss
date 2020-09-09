@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// Import Oswald font
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+//Import Custom Sass
+@import "_custom.scss";
+
+//  Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
