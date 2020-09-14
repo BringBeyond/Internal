@@ -1,16 +1,21 @@
 // * Custom Variables
 $bg-color-primary: #151515;
 $bg-color-second: #111111;
+$primary: #e06c75;
 
 // Set Backgroud Color
 $body-background-color: $bg-color-primary;
 
 // Set Font Family and sizes
-$family-sans-serif: "Oswald", sans-serif;
+$family-sans-serif: "Roboto", sans-serif;
+$family-monospace: "Space Mono", monospace;
+$size-1: 3.625rem;
 $size-7: 0.8125rem;
 
 // Make Links White
 $link: $white;
+$link-hover: $primary;
+$text: $white;
 
 // Navbar stuff
 $navbar-background-color: $bg-color-primary;

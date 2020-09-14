@@ -3,13 +3,35 @@
 // Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
-// Import Oswald font
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+// Import Space Mono Font
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 //Import Custom Sass
 @import "_custom.scss";
 @import "_hamburger.scss";
 @import "_nav.scss";
+
+#home {
+  margin-top: 3.25rem;
+}
+
+.infill {
+  height: 1000px;
+}
+
+// Content
+.content-heading {
+  line-height: 1;
+}
+
+.heading-bar {
+  height: 0.3125rem;
+  width: 3rem;
+  float: left;
+  background-color: $primary;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
 
 //  Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
