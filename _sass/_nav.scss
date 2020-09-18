@@ -1,0 +1,25 @@
+.nav-container {
+  display: none;
+  line-height: 1;
+  position: fixed;
+  background-color: $bg-color-primary;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav-container ul {
+  margin-left: 5rem;
+}
+
+.nav-container a {
+  color: $primary;
+}
+
+.nav-container .link-bar {
+  height: 0.3125rem;
+  width: 3rem;
+  float: left;
+  background-color: $primary;
+  margin-top: 1.5rem;
+  transition: transform 1s;
+}
