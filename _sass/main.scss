@@ -11,10 +11,13 @@
 @import "_hamburger.scss";
 @import "_nav.scss";
 
+section {
+  padding: 6.25rem 0rem 6.25rem 0rem;
+}
+
 #home {
   margin-top: 3.25rem;
 }
-
 
 // Content
 .content-heading {
