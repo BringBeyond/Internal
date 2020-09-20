@@ -23,7 +23,7 @@ $text: $white;
 $navbar-background-color: $bg-color-primary;
 
 // Footer stuff
-$footer-background-color: $bg-color-second;
+$footer-background-color: $bg-color-primary;
 $footer-color: $white;
 $footer-padding: 2.0625rem 1.5rem 2.0625rem;
 
@@ -31,4 +31,4 @@ $footer-padding: 2.0625rem 1.5rem 2.0625rem;
 $spacing-shortcuts: ("margin": "mg");
 $spacing-horizontal: "h";
 $spacing-vertical: null;
-$spacing-values: ("82px": 5.125rem, "100px": 6.25rem, "42px": 2.625rem);
+$spacing-values: ("82px": 5.125rem, "100px": 6.25rem, "42px": 2.625rem, "8px":0.5rem, "18px":1.125rem);
