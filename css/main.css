@@ -51,7 +51,15 @@
   position: fixed;
   background-color: #151515;
   z-index: 1;
+  height: 100%;
   width: 100%; }
+
+.is-fixed-top {
+  padding-top: 1.5rem; }
+
+.is-vertical-center {
+  display: flex;
+  align-items: center; }
 
 .nav-container ul {
   margin-left: 5rem; }
