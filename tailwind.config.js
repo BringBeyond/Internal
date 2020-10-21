@@ -7,6 +7,11 @@ module.exports = {
   },
   purge: [],
   theme: {
+
+	fontFamily:{
+		'sans':['Roboto', 'sans-serif'],
+		'mono':['"Space Mono"', 'monospace'],
+	},
     extend: {
 		spacing: {
 			'2.2': '2.2rem',
@@ -15,10 +20,12 @@ module.exports = {
 
 		height: {
 			'box': '32rem',
+			'lg_box': '24rem',
 		},
 
 		width: {
 			'box': '32rem',
+			'lg_box': '24rem',
 		},
 
 		textColor: theme => theme('colors'),

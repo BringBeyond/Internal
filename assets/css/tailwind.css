@@ -414,7 +414,7 @@ ul {
  */
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: Roboto, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -550,7 +550,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Space Mono", monospace;
 }
 
 /**
@@ -10398,15 +10398,11 @@ video {
 }
 
 .font-sans {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Roboto, sans-serif;
 }
 
 .font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Space Mono", monospace;
 }
 
 .font-hairline {
@@ -10611,6 +10607,10 @@ video {
 
 .h-box {
   height: 32rem;
+}
+
+.h-lg_box {
+  height: 24rem;
 }
 
 .text-xs {
@@ -18879,6 +18879,10 @@ video {
 
 .w-box {
   width: 32rem;
+}
+
+.w-lg_box {
+  width: 24rem;
 }
 
 .z-0 {
@@ -31876,15 +31880,11 @@ h1:hover:before {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto, sans-serif;
   }
 
   .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Space Mono", monospace;
   }
 
   .sm\:font-hairline {
@@ -32089,6 +32089,10 @@ h1:hover:before {
 
   .sm\:h-box {
     height: 32rem;
+  }
+
+  .sm\:h-lg_box {
+    height: 24rem;
   }
 
   .sm\:text-xs {
@@ -40357,6 +40361,10 @@ h1:hover:before {
 
   .sm\:w-box {
     width: 32rem;
+  }
+
+  .sm\:w-lg_box {
+    width: 24rem;
   }
 
   .sm\:z-0 {
@@ -53211,15 +53219,11 @@ h1:hover:before {
   }
 
   .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto, sans-serif;
   }
 
   .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Space Mono", monospace;
   }
 
   .md\:font-hairline {
@@ -53424,6 +53428,10 @@ h1:hover:before {
 
   .md\:h-box {
     height: 32rem;
+  }
+
+  .md\:h-lg_box {
+    height: 24rem;
   }
 
   .md\:text-xs {
@@ -61692,6 +61700,10 @@ h1:hover:before {
 
   .md\:w-box {
     width: 32rem;
+  }
+
+  .md\:w-lg_box {
+    width: 24rem;
   }
 
   .md\:z-0 {
@@ -74546,15 +74558,11 @@ h1:hover:before {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto, sans-serif;
   }
 
   .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Space Mono", monospace;
   }
 
   .lg\:font-hairline {
@@ -74759,6 +74767,10 @@ h1:hover:before {
 
   .lg\:h-box {
     height: 32rem;
+  }
+
+  .lg\:h-lg_box {
+    height: 24rem;
   }
 
   .lg\:text-xs {
@@ -83027,6 +83039,10 @@ h1:hover:before {
 
   .lg\:w-box {
     width: 32rem;
+  }
+
+  .lg\:w-lg_box {
+    width: 24rem;
   }
 
   .lg\:z-0 {
@@ -95881,15 +95897,11 @@ h1:hover:before {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto, sans-serif;
   }
 
   .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Space Mono", monospace;
   }
 
   .xl\:font-hairline {
@@ -96094,6 +96106,10 @@ h1:hover:before {
 
   .xl\:h-box {
     height: 32rem;
+  }
+
+  .xl\:h-lg_box {
+    height: 24rem;
   }
 
   .xl\:text-xs {
@@ -104362,6 +104378,10 @@ h1:hover:before {
 
   .xl\:w-box {
     width: 32rem;
+  }
+
+  .xl\:w-lg_box {
+    width: 24rem;
   }
 
   .xl\:z-0 {
