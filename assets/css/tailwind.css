@@ -22004,7 +22004,7 @@ h1::before {
   content: "";
   border-top: .3rem solid #E06C75;
   width: 3rem;
-  margin: 0 1rem;
+  margin-right: 1rem;
   transform: translateY(-1rem);
   opacity:0;
 }
@@ -22078,7 +22078,11 @@ html { /* body won't work �\_(?)_/� */
       scroll-snap-type: y mandatory;
 }
 
-section {
+#home {
+  scroll-snap-align: start;
+}
+
+#work {
   scroll-snap-align: start;
 }
 

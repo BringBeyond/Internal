@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 	jQuery('#nav-icon3').click(function(){
+		jQuery(".logo").toggleClass("invisible");
 		jQuery(this).toggleClass('open');
 		jQuery(".nav-container").slideToggle(500);
 
