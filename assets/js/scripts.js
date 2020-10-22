@@ -3,8 +3,6 @@ jQuery(document).ready(function($) {
 		jQuery(".logo").toggleClass("invisible");
 		jQuery(this).toggleClass('open');
 		jQuery(".nav-container").slideToggle(500);
-
-		// jQuery('body','html').toggleClass("overflow-hidden");
 		jQuery('body','html').toggleClass("h-full");
 	});
 
