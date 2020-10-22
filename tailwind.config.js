@@ -12,6 +12,7 @@ module.exports = {
 		'sans':['Roboto', 'sans-serif'],
 		'mono':['"Space Mono"', 'monospace'],
 	},
+
     extend: {
 		spacing: {
 			'2.2': '2.2rem',

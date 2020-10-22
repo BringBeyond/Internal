@@ -12,5 +12,7 @@ jQuery(document).ready(function($) {
 		jQuery(".nav-container").slideToggle(200);
 
 	})
+
+	jQuery('#home').animate({scrollTop: jQuery('#work').offset().top}, 1000);
 });
 

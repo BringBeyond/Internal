@@ -22067,6 +22067,21 @@ h1:hover:before {
   height:100%;
 }
 
+.gif {
+  background: url("/Users/lukasbahr/Internal/assets/images/waves_bw.gif");
+  background-size: cover;
+  background-color: #151515;
+}
+
+html { /* body won't work �\_(?)_/� */
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
