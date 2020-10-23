@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 	jQuery(".nav-container a").click(function(){
 		jQuery('#nav-icon3').toggleClass('open');
 		jQuery(".nav-container").slideToggle(200);
-		jQuery(".logo").toggleClass("visible");
+		jQuery(".logo").removeClass("invisible");
 	})
 
 	jQuery('#home').animate({scrollTop: jQuery('#work').offset().top}, 1000);

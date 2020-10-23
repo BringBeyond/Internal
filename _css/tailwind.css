@@ -108,15 +108,6 @@ h1:hover:before {
 	background-color: #151515;
 
 }
-html { /* body won't work ø\_(?)_/ø */
-  scroll-snap-type: y mandatory;
-}
 
-#home {
-scroll-snap-align: start;
-}
 
-#work {
-scroll-snap-align: start;
-}
 
