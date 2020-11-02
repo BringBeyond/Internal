@@ -128,7 +128,7 @@
 
 :root {
   --font-primary: Roboto, sans-serif;
-  --font-secondary: monospace, monospace;
+  --font-secondary: Roboto, sans-serif;
 }
 
 /*--------------------------------------------------
