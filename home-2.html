@@ -113,22 +113,22 @@
                   <div class="navList__wrap">
                     <ul class="navList js-navList">
                       <li>
-                        <a data-barba href="#">
+                        <a data-barba href="#home">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a data-barba href="#">
+                        <a data-barba href="#work">
                           Work
                         </a>
                       </li>
                       <li>
-                        <a data-barba href="#">
+                        <a data-barba href="#services">
                           Services
                         </a>
                       </li>
                       <li>
-                        <a data-barba href="#">
+                        <a data-barba href="#about">
                           About
                         </a>
                       </li>
@@ -180,7 +180,9 @@
 
       <!-- section start -->
       <section class="masthead -type-1 bg-dark-1 js-masthead-type-1 js-shapes">
-        
+        <div data-parallax="0.7" class="masthead__bg overlay-black-md js-image">
+          <div data-parallax-target class="bg-image js-lazy js-bg-item" data-bg="img/projects/horizontal/waves_bw.gif"></div>
+        </div>
 
         <!-- container start -->
         <div class="container-fluid">
@@ -189,7 +191,7 @@
             <div class="row justify-content-center">
               <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-1 col-md-9 sm:px-24">
                 <div data-split="lines" data-split-page-reveal>
-                  <h1 class="masthead__title fw-700 text-white js-title">
+                  <h1 class="masthead__title fw-700 text-white js-title" style="color: #e06c75;">
                     We are a creative agency specialized in product design, development and digital consulting.
                   </h1>
                 </div>
@@ -228,7 +230,7 @@
 
 
       <!-- section start -->
-      <section class="layout-pt-xl layout-pb-lg">
+      <section id="#services" class="layout-pt-xl layout-pb-lg">
         <!-- container start -->
         <div class="container">
 
@@ -239,7 +241,7 @@
                 <p class="sectionHeading__subtitle -light">
                   services
                 </p>
-                <h2 class="sectionHeading__title fw-600 text-white">
+                <h2 class="sectionHeading__title fw-600 text-white" style="color: #e06c75;">
                   We develop creative solutions for small and big brands alike, build authentic product identities and much more.
                 </h2>
               </div>
@@ -251,16 +253,16 @@
           <!-- row start -->
           <div data-anim-wrap class="row x-gap-48 y-gap-60 layout-pt-md">
 
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
                 <div class="serviceCard__content">
                   <div class="d-flex align-items-center ml-minus-4">
                     <div class="px-20 py-20 bg-dark-1 border-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="package"></i>
+                      <i class="size-sm str-width-md text-accent" data-feather="package" style="color: #ffffff;"></i>
                     </div>
                   </div>
 
-                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24" style="color: #ffffff;">
                     Product
                   </h3>
 
@@ -277,21 +279,21 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <div data-anim-child="slide-up delay-5" class="serviceCard -type-2">
                 <div class="serviceCard__content">
                   <div class="d-flex align-items-center ml-minus-4">
                     <div class="px-20 py-20 bg-dark-1 border-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="smartphone"></i>
+                      <i class="size-sm str-width-md text-accent" data-feather="smartphone" style="color: #ffffff;"></i>
                     </div>
                   </div>
 
-                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
-                    Web/Mobile
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24" style="color: #ffffff;">
+                    Mobile
                   </h3>
 
                   <p class="serviceCard__text text-light mt-16">
-                    We create modern websites and native apps for iOS and Android by strategically blending user interface. 
+                    We develop sustainable native apps for iOS, Android, web applications and B2B software.
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
@@ -303,21 +305,21 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
               <div data-anim-child="slide-up delay-6" class="serviceCard -type-2">
                 <div class="serviceCard__content">
                   <div class="d-flex align-items-center ml-minus-4">
                     <div class="px-20 py-20 bg-dark-1 border-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="globe"></i>
+                      <i class="size-sm str-width-md text-accent" data-feather="globe" style="color: #ffffff;"></i>
                     </div>
                   </div>
 
-                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
-                    AI/IoT
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24" style="color: #ffffff;">
+                    Web
                   </h3>
 
                   <p class="serviceCard__text text-light mt-16">
-                    We boost and raise your productivity by using artificial intelligence and internet of things. 
+                    We create clean and modern websites by strategically blending user interface and brand stories.
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
@@ -328,6 +330,38 @@
                 </div>
               </div>
             </div>
+
+
+
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim-child="slide-up delay-6" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <div class="d-flex align-items-center ml-minus-4">
+                    <div class="px-20 py-20 bg-dark-1 border-light rounded-full">
+                      <i class="size-sm str-width-md text-accent" data-feather="cpu" style="color: #ffffff;"></i>
+                    </div>
+                  </div>
+
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24" style="color: #ffffff;">
+                    AI/IoT
+                  </h3>
+
+                  <p class="serviceCard__text text-light mt-16">
+                    We boost and raise your productivity by using artificial intelligence and internet of things.  
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="#" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
 
           </div>
           <!-- row end -->
@@ -350,7 +384,7 @@
                 <p class="sectionHeading__subtitle -light">
                   Work
                 </p>
-                <h2 class="sectionHeading__title text-white">
+                <h2 class="sectionHeading__title text-white" style="color: #e06c75;">
                   Selected Projects
                 </h2>
                 <p class="text-lg md:text-base text-light mt-16">
@@ -372,7 +406,7 @@
               <a data-cursor-icon="arrow-right" data-anim="slide-up delay-2" class="portfolioCard -type-1 -hover" data-barba href="portfolio-single-1.html">
                 <div class="portfolioCard__img">
                   <div class="portfolioCard__img__inner">
-                    <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="img/projects/vertical/1.jpg"></div>
+                    <div class="ratio ratio-1:1 bg-image js-lazy" data-bg="img/projects/vertical/1.png"></div>
                   </div>
                 </div>
 
@@ -396,7 +430,7 @@
               <a data-cursor-icon="arrow-right" data-anim="slide-up delay-2" class="portfolioCard -type-1 -hover" data-barba href="portfolio-single-2.html">
                 <div class="portfolioCard__img">
                   <div class="portfolioCard__img__inner">
-                    <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="img/projects/vertical/2.jpg"></div>
+                    <div class="ratio ratio-1:1 bg-image js-lazy" data-bg="img/projects/vertical/2.png"></div>
                   </div>
                 </div>
 
@@ -540,9 +574,9 @@
             <div class="col-xl-7 col-lg-9">
               <div class="sectionHeading -sm">
                 <p class="sectionHeading__subtitle -light">
-                  About us
+                  About
                 </p>
-                <h2 class="sectionHeading__title fw-600 text-white">
+                <h2 class="sectionHeading__title fw-600 text-white" style="color: #e06c75;">
                   Great designs are created when creatives and developers work hand in hand.
                 </h2>
               </div>
@@ -573,17 +607,7 @@
 
                   <div class="teamCard__social mt-12">
                     <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </div>
-                    <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-facebook-f"></i>
-                      </a>
-                    </div>
-                    <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
+                      <a class="text-white" href="https://www.linkedin.com/in/lukasbahr/">
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </div>
@@ -611,17 +635,12 @@
 
                   <div class="teamCard__social mt-12">
                     <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-twitter"></i>
+                      <a class="text-white" href="https://www.instagram.com/rauhnico/">
+                        <i class="fa fa-instagram"></i>
                       </a>
                     </div>
                     <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-facebook-f"></i>
-                      </a>
-                    </div>
-                    <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
+                      <a class="text-white" href="https://de.linkedin.com/in/nico-rauh">
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </div>
@@ -649,17 +668,12 @@
 
                   <div class="teamCard__social mt-12">
                     <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-twitter"></i>
+                      <a class="text-white" href="https://www.instagram.com/max_kirsche/">
+                        <i class="fa fa-instagram"></i>
                       </a>
                     </div>
                     <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
-                        <i class="fa fa-facebook-f"></i>
-                      </a>
-                    </div>
-                    <div class="teamCard__social__item">
-                      <a class="text-white" href="#">
+                      <a class="text-white" href="https://de.linkedin.com/in/maxkirschning">
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </div>
@@ -693,7 +707,7 @@
                 <p class="sectionHeading__subtitle -light">
                   awards & honors
                 </p>
-                <h2 class="sectionHeading__title text-white fw-700">
+                <h2 class="sectionHeading__title text-white fw-700" style="color: #e06c75;">
                   Awards & Recognitions
                 </h2>
                 <a href="#" class="button -md -outline-white text-white mt-32 md:mt-24">
@@ -710,7 +724,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2020.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
@@ -726,7 +740,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2020.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
@@ -742,7 +756,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2020.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
@@ -758,7 +772,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2019.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
@@ -774,7 +788,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2019.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
@@ -790,7 +804,7 @@
                 <div class="col-lg-6 col-sm-6">
                   <div class="award">
                     <div class="award__content">
-                      <p class="text-xl text-accent number fw-400">
+                      <p class="text-xl text-white number fw-400">
                         2019.
                       </p>
                       <h3 class="award__title text-xl fw-500 text-white mt-16">
